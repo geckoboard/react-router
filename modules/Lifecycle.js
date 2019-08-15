@@ -1,4 +1,4 @@
-import PropTypes from 'proptypes'
+import PropTypes from 'prop-types'
 import invariant from 'invariant'
 
 const { object } = PropTypes

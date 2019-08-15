@@ -1,6 +1,6 @@
 'use strict';
 
-import PropTypes from 'proptypes';
+import PropTypes from 'prop-types';
 
 var object = PropTypes.object;
 

@@ -7,7 +7,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== 'function' 
 import warning from 'warning';
 import invariant from 'invariant';
 import { Component } from 'react';
-import PropTypes from 'proptypes';
+import PropTypes from 'prop-types';
 import { createRouteFromReactElement } from './RouteUtils';
 import { component, components, falsy } from './PropTypes';
 

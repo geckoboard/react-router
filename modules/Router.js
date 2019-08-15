@@ -1,6 +1,6 @@
 import warning from 'warning'
 import React, { Component } from 'react'
-import PropTypes from 'proptypes'
+import PropTypes from 'prop-types'
 import createHashHistory from 'history/lib/createHashHistory'
 import { createRoutes } from './RouteUtils'
 import RoutingContext from './RoutingContext'
