@@ -1,12 +1,13 @@
 import warning from 'warning'
 import React, { Component } from 'react'
+import PropTypes from 'proptypes'
 import createHashHistory from 'history/lib/createHashHistory'
 import { createRoutes } from './RouteUtils'
 import RoutingContext from './RoutingContext'
 import useRoutes from './useRoutes'
 import { routes } from './PropTypes'
 
-const { func, object } = React.PropTypes
+const { func, object } = PropTypes
 
 /**
  * A <Router> is a high-level API for automatically setting up

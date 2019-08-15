@@ -38,6 +38,7 @@
   "license": "MIT",
   "dependencies": {
     "invariant": "^2.0.0",
+    "proptypes": "^1.1.0",
     "warning": "^2.0.0"
   },
   "peerDependencies": {

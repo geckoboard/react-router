@@ -1,10 +1,11 @@
 import expect from 'expect'
 import React, { Component } from 'react'
+import PropTypes from 'proptypes'
 import { render, unmountComponentAtNode } from 'react-dom'
 import createHistory from 'history/lib/createMemoryHistory'
 import Router from '../Router'
 
-const { object } = React.PropTypes
+const { object } = PropTypes
 
 describe('a Route Component', function () {
 

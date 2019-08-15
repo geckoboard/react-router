@@ -1,6 +1,6 @@
-import React from 'react'
+import PropTypes from 'proptypes'
 
-const { object } = React.PropTypes
+const { object } = PropTypes
 
 /**
  * The RouteContext mixin provides a convenient way for route

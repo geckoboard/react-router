@@ -1,7 +1,7 @@
-import React from 'react'
+import PropTypes from 'proptypes'
 import invariant from 'invariant'
 
-const { object } = React.PropTypes
+const { object } = PropTypes
 
 /**
  * The Lifecycle mixin adds the routerWillLeave lifecycle method to a

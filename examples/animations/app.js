@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'proptypes'
 import { render } from 'react-dom'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import StaticContainer from 'react-static-container'
@@ -59,7 +60,7 @@ class RouteCSSTransitionGroup extends React.Component {
 
 
 RouteCSSTransitionGroup.contextTypes = {
-  location: React.PropTypes.object
+  location: PropTypes.object
 }
 
 class App extends React.Component {
