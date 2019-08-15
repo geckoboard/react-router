@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import warning from 'warning'
 
 function isValidChild(object) {
@@ -14,7 +15,7 @@ function checkPropTypes(componentName, propTypes, props) {
 
   for (const propName in propTypes) {
     if (propTypes.hasOwnProperty(propName)) {
-      const error = propTypes[propName](props, propName, componentName)
+      const error = PropTypes.checkPropTypes(propTypes, props, propName, componentName)
 
       /* istanbul ignore if: error logging */
       if (error instanceof Error)

@@ -7,6 +7,7 @@ export { createRouteFromReactElement };
 export { createRoutesFromReactChildren };
 export { createRoutes };
 import React from 'react';
+import PropTypes from 'prop-types';
 import warning from 'warning';
 
 function isValidChild(object) {
@@ -22,7 +23,7 @@ function checkPropTypes(componentName, propTypes, props) {
 
   for (var propName in propTypes) {
     if (propTypes.hasOwnProperty(propName)) {
-      var error = propTypes[propName](props, propName, componentName);
+      var error = PropTypes.checkPropTypes(propTypes, props, propName, componentName);
 
       /* istanbul ignore if: error logging */
       if (error instanceof Error) process.env.NODE_ENV !== 'production' ? warning(false, error.message) : undefined;
