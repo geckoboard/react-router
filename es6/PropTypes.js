@@ -1,7 +1,7 @@
 'use strict';
 
 export { falsy };
-import { PropTypes } from 'react';
+import PropTypes from 'prop-types';
 
 var func = PropTypes.func;
 var object = PropTypes.object;
